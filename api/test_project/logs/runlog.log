@@ -1,0 +1,376 @@
+2018-09-15 21:59:21,914 mysql_action.py [line:18] : INFO ================ init data =================
+2018-09-15 21:59:21,915 mysql_action.py [line:19] : INFO connect db...
+2018-09-15 21:59:21,928 mysql_action.py [line:59] : INFO init data....
+2018-09-15 21:59:21,928 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 21:59:21,967 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 21:59:21,968 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 21:59:21,968 mysql_action.py [line:43] : INFO '1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/'
+2018-09-15 21:59:21,968 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/')
+2018-09-15 21:59:21,971 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 21:59:21,972 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 21:59:21,972 mysql_action.py [line:43] : INFO '2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/'
+2018-09-15 21:59:21,972 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/')
+2018-09-15 21:59:21,975 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 21:59:22,001 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 21:59:22,002 mysql_action.py [line:42] : INFO id,name
+2018-09-15 21:59:22,002 mysql_action.py [line:43] : INFO '1','Developer'
+2018-09-15 21:59:22,002 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('1','Developer')
+2018-09-15 21:59:22,005 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 21:59:22,006 mysql_action.py [line:42] : INFO id,name
+2018-09-15 21:59:22,006 mysql_action.py [line:43] : INFO '2','Tester'
+2018-09-15 21:59:22,006 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('2','Tester')
+2018-09-15 21:59:22,010 mysql_action.py [line:53] : INFO close db
+2018-09-15 21:59:22,011 mysql_action.py [line:55] : INFO ================ init finished! =================
+2018-09-15 21:59:22,145 mysql_action.py [line:18] : INFO ================ init data =================
+2018-09-15 21:59:22,145 mysql_action.py [line:19] : INFO connect db...
+2018-09-15 21:59:22,152 mysql_action.py [line:59] : INFO init data....
+2018-09-15 21:59:22,152 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 21:59:22,190 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 21:59:22,191 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 21:59:22,191 mysql_action.py [line:43] : INFO '1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/'
+2018-09-15 21:59:22,191 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/')
+2018-09-15 21:59:22,195 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 21:59:22,195 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 21:59:22,195 mysql_action.py [line:43] : INFO '2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/'
+2018-09-15 21:59:22,195 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/')
+2018-09-15 21:59:22,199 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 21:59:22,229 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 21:59:22,229 mysql_action.py [line:42] : INFO id,name
+2018-09-15 21:59:22,230 mysql_action.py [line:43] : INFO '1','Developer'
+2018-09-15 21:59:22,231 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('1','Developer')
+2018-09-15 21:59:22,235 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 21:59:22,235 mysql_action.py [line:42] : INFO id,name
+2018-09-15 21:59:22,235 mysql_action.py [line:43] : INFO '2','Tester'
+2018-09-15 21:59:22,235 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('2','Tester')
+2018-09-15 21:59:22,238 mysql_action.py [line:53] : INFO close db
+2018-09-15 21:59:22,239 mysql_action.py [line:55] : INFO ================ init finished! =================
+2018-09-15 21:59:22,241 run.py [line:37] : INFO ==========Start API Test===========
+2018-09-15 21:59:22,241 test_django_restful.py [line:69] : INFO test_001_get_group
+2018-09-15 21:59:22,439 test_django_restful.py [line:76] : INFO test_002_add_group
+2018-09-15 21:59:22,658 test_django_restful.py [line:84] : INFO test_003_update_group
+2018-09-15 21:59:22,933 test_django_restful.py [line:94] : INFO test_004_delete_group
+2018-09-15 21:59:23,186 test_django_restful.py [line:100] : INFO test_005_no_auth
+2018-09-15 21:59:23,206 test_django_restful.py [line:23] : INFO test_001_get_user
+2018-09-15 21:59:23,454 test_django_restful.py [line:32] : INFO test_002_add_user
+2018-09-15 21:59:23,675 test_django_restful.py [line:50] : INFO test_004_delete_user
+2018-09-15 21:59:23,873 test_django_restful.py [line:56] : INFO test_005_no_auth
+2018-09-15 21:59:23,886 test_django_restful.py [line:41] : INFO test__003_update_user
+2018-09-15 22:01:29,694 mysql_action.py [line:18] : INFO ================ init data =================
+2018-09-15 22:01:29,695 mysql_action.py [line:19] : INFO connect db...
+2018-09-15 22:01:29,709 mysql_action.py [line:59] : INFO init data....
+2018-09-15 22:01:29,709 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:01:29,755 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:01:29,756 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:01:29,756 mysql_action.py [line:43] : INFO '1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/'
+2018-09-15 22:01:29,756 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/')
+2018-09-15 22:01:29,762 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:01:29,762 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:01:29,762 mysql_action.py [line:43] : INFO '2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/'
+2018-09-15 22:01:29,763 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/')
+2018-09-15 22:01:29,775 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:01:29,816 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:01:29,816 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:01:29,816 mysql_action.py [line:43] : INFO '1','Developer'
+2018-09-15 22:01:29,816 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('1','Developer')
+2018-09-15 22:01:29,820 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:01:29,820 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:01:29,820 mysql_action.py [line:43] : INFO '2','Tester'
+2018-09-15 22:01:29,821 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('2','Tester')
+2018-09-15 22:01:29,827 mysql_action.py [line:53] : INFO close db
+2018-09-15 22:01:29,828 mysql_action.py [line:55] : INFO ================ init finished! =================
+2018-09-15 22:01:30,024 mysql_action.py [line:18] : INFO ================ init data =================
+2018-09-15 22:01:30,024 mysql_action.py [line:19] : INFO connect db...
+2018-09-15 22:01:30,032 mysql_action.py [line:59] : INFO init data....
+2018-09-15 22:01:30,033 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:01:30,065 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:01:30,066 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:01:30,066 mysql_action.py [line:43] : INFO '1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/'
+2018-09-15 22:01:30,066 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/')
+2018-09-15 22:01:30,069 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:01:30,070 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:01:30,070 mysql_action.py [line:43] : INFO '2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/'
+2018-09-15 22:01:30,070 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/')
+2018-09-15 22:01:30,074 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:01:30,099 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:01:30,100 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:01:30,100 mysql_action.py [line:43] : INFO '1','Developer'
+2018-09-15 22:01:30,100 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('1','Developer')
+2018-09-15 22:01:30,110 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:01:30,110 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:01:30,110 mysql_action.py [line:43] : INFO '2','Tester'
+2018-09-15 22:01:30,110 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('2','Tester')
+2018-09-15 22:01:30,114 mysql_action.py [line:53] : INFO close db
+2018-09-15 22:01:30,114 mysql_action.py [line:55] : INFO ================ init finished! =================
+2018-09-15 22:01:30,116 run.py [line:37] : INFO ==========Start API Test===========
+2018-09-15 22:01:30,116 test_django_restful.py [line:69] : INFO test_001_get_group
+2018-09-15 22:01:30,325 test_django_restful.py [line:76] : INFO test_002_add_group
+2018-09-15 22:01:30,501 test_django_restful.py [line:84] : INFO test_003_update_group
+2018-09-15 22:01:30,689 test_django_restful.py [line:94] : INFO test_004_delete_group
+2018-09-15 22:01:30,872 test_django_restful.py [line:100] : INFO test_005_no_auth
+2018-09-15 22:01:30,887 test_django_restful.py [line:23] : INFO test_001_get_user
+2018-09-15 22:01:31,066 test_django_restful.py [line:32] : INFO test_002_add_user
+2018-09-15 22:01:31,272 test_django_restful.py [line:50] : INFO test_004_delete_user
+2018-09-15 22:01:31,522 test_django_restful.py [line:56] : INFO test_005_no_auth
+2018-09-15 22:01:31,535 test_django_restful.py [line:41] : INFO test__003_update_user
+2018-09-15 22:11:27,907 mysql_action.py [line:18] : INFO ================ init data =================
+2018-09-15 22:11:27,908 mysql_action.py [line:19] : INFO connect db...
+2018-09-15 22:11:27,924 mysql_action.py [line:59] : INFO init data....
+2018-09-15 22:11:27,924 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:11:27,949 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:11:27,950 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:11:27,950 mysql_action.py [line:43] : INFO '1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/'
+2018-09-15 22:11:27,950 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/')
+2018-09-15 22:11:27,954 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:11:27,954 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:11:27,954 mysql_action.py [line:43] : INFO '2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/'
+2018-09-15 22:11:27,954 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/')
+2018-09-15 22:11:27,960 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:11:27,983 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:11:27,984 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:11:27,984 mysql_action.py [line:43] : INFO '1','Developer'
+2018-09-15 22:11:27,984 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('1','Developer')
+2018-09-15 22:11:27,988 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:11:27,988 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:11:27,988 mysql_action.py [line:43] : INFO '2','Tester'
+2018-09-15 22:11:27,989 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('2','Tester')
+2018-09-15 22:11:27,994 mysql_action.py [line:53] : INFO close db
+2018-09-15 22:11:27,995 mysql_action.py [line:55] : INFO ================ init finished! =================
+2018-09-15 22:11:28,122 mysql_action.py [line:18] : INFO ================ init data =================
+2018-09-15 22:11:28,123 mysql_action.py [line:19] : INFO connect db...
+2018-09-15 22:11:28,129 mysql_action.py [line:59] : INFO init data....
+2018-09-15 22:11:28,129 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:11:28,219 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:11:28,219 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:11:28,219 mysql_action.py [line:43] : INFO '1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/'
+2018-09-15 22:11:28,219 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/')
+2018-09-15 22:11:28,223 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:11:28,224 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:11:28,224 mysql_action.py [line:43] : INFO '2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/'
+2018-09-15 22:11:28,224 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/')
+2018-09-15 22:11:28,227 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:11:28,254 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:11:28,254 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:11:28,254 mysql_action.py [line:43] : INFO '1','Developer'
+2018-09-15 22:11:28,254 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('1','Developer')
+2018-09-15 22:11:28,266 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:11:28,266 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:11:28,266 mysql_action.py [line:43] : INFO '2','Tester'
+2018-09-15 22:11:28,266 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('2','Tester')
+2018-09-15 22:11:28,275 mysql_action.py [line:53] : INFO close db
+2018-09-15 22:11:28,276 mysql_action.py [line:55] : INFO ================ init finished! =================
+2018-09-15 22:11:28,277 run.py [line:37] : INFO ==========Start API Test===========
+2018-09-15 22:11:28,277 test_django_restful.py [line:69] : INFO test_001_get_group
+2018-09-15 22:11:28,468 test_django_restful.py [line:76] : INFO test_002_add_group
+2018-09-15 22:11:28,704 test_django_restful.py [line:84] : INFO test_003_update_group
+2018-09-15 22:11:28,911 test_django_restful.py [line:94] : INFO test_004_delete_group
+2018-09-15 22:11:29,137 test_django_restful.py [line:100] : INFO test_005_no_auth
+2018-09-15 22:11:29,160 test_django_restful.py [line:23] : INFO test_001_get_user
+2018-09-15 22:11:29,383 test_django_restful.py [line:32] : INFO test_002_add_user
+2018-09-15 22:11:29,570 test_django_restful.py [line:50] : INFO test_004_delete_user
+2018-09-15 22:11:29,765 test_django_restful.py [line:56] : INFO test_005_no_auth
+2018-09-15 22:11:29,777 test_django_restful.py [line:41] : INFO test__003_update_user
+2018-09-15 22:19:13,185 mysql_action.py [line:18] : INFO ================ init data =================
+2018-09-15 22:19:13,185 mysql_action.py [line:19] : INFO connect db...
+2018-09-15 22:19:13,200 mysql_action.py [line:59] : INFO init data....
+2018-09-15 22:19:13,200 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:19:13,265 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:19:13,265 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:19:13,265 mysql_action.py [line:43] : INFO '1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/'
+2018-09-15 22:19:13,266 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/')
+2018-09-15 22:19:13,270 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:19:13,271 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:19:13,271 mysql_action.py [line:43] : INFO '2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/'
+2018-09-15 22:19:13,272 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/')
+2018-09-15 22:19:13,276 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:19:13,300 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:19:13,301 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:19:13,301 mysql_action.py [line:43] : INFO '1','Developer'
+2018-09-15 22:19:13,301 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('1','Developer')
+2018-09-15 22:19:13,317 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:19:13,317 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:19:13,317 mysql_action.py [line:43] : INFO '2','Tester'
+2018-09-15 22:19:13,320 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('2','Tester')
+2018-09-15 22:19:13,331 mysql_action.py [line:53] : INFO close db
+2018-09-15 22:19:13,331 mysql_action.py [line:55] : INFO ================ init finished! =================
+2018-09-15 22:19:13,496 mysql_action.py [line:18] : INFO ================ init data =================
+2018-09-15 22:19:13,496 mysql_action.py [line:19] : INFO connect db...
+2018-09-15 22:19:13,506 mysql_action.py [line:59] : INFO init data....
+2018-09-15 22:19:13,506 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:19:13,548 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:19:13,548 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:19:13,549 mysql_action.py [line:43] : INFO '1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/'
+2018-09-15 22:19:13,551 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/')
+2018-09-15 22:19:13,558 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:19:13,559 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:19:13,560 mysql_action.py [line:43] : INFO '2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/'
+2018-09-15 22:19:13,562 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/')
+2018-09-15 22:19:13,567 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:19:13,591 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:19:13,592 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:19:13,593 mysql_action.py [line:43] : INFO '1','Developer'
+2018-09-15 22:19:13,594 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('1','Developer')
+2018-09-15 22:19:13,600 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:19:13,600 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:19:13,601 mysql_action.py [line:43] : INFO '2','Tester'
+2018-09-15 22:19:13,603 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('2','Tester')
+2018-09-15 22:19:13,609 mysql_action.py [line:53] : INFO close db
+2018-09-15 22:19:13,610 mysql_action.py [line:55] : INFO ================ init finished! =================
+2018-09-15 22:19:13,613 run.py [line:37] : INFO ==========Start API Test===========
+2018-09-15 22:19:13,613 test_django_restful.py [line:69] : INFO test_001_get_group
+2018-09-15 22:19:13,797 test_django_restful.py [line:76] : INFO test_002_add_group
+2018-09-15 22:19:13,991 test_django_restful.py [line:84] : INFO test_003_update_group
+2018-09-15 22:19:14,207 test_django_restful.py [line:94] : INFO test_004_delete_group
+2018-09-15 22:19:14,407 test_django_restful.py [line:100] : INFO test_005_no_auth
+2018-09-15 22:19:14,424 test_django_restful.py [line:23] : INFO test_001_get_user
+2018-09-15 22:19:14,618 test_django_restful.py [line:32] : INFO test_002_add_user
+2018-09-15 22:19:14,864 test_django_restful.py [line:50] : INFO test_004_delete_user
+2018-09-15 22:19:15,078 test_django_restful.py [line:56] : INFO test_005_no_auth
+2018-09-15 22:19:15,091 test_django_restful.py [line:41] : INFO test__003_update_user
+2018-09-15 22:24:15,887 mysql_action.py [line:18] : INFO ================ init data =================
+2018-09-15 22:24:15,887 mysql_action.py [line:19] : INFO connect db...
+2018-09-15 22:24:15,900 mysql_action.py [line:59] : INFO init data....
+2018-09-15 22:24:15,900 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:24:15,993 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:24:15,994 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:24:15,994 mysql_action.py [line:43] : INFO '1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/'
+2018-09-15 22:24:15,994 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/')
+2018-09-15 22:24:16,009 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:24:16,010 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:24:16,010 mysql_action.py [line:43] : INFO '2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/'
+2018-09-15 22:24:16,010 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/')
+2018-09-15 22:24:16,017 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:24:16,046 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:24:16,046 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:24:16,046 mysql_action.py [line:43] : INFO '1','Developer'
+2018-09-15 22:24:16,047 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('1','Developer')
+2018-09-15 22:24:16,051 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:24:16,051 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:24:16,051 mysql_action.py [line:43] : INFO '2','Tester'
+2018-09-15 22:24:16,051 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('2','Tester')
+2018-09-15 22:24:16,055 mysql_action.py [line:53] : INFO close db
+2018-09-15 22:24:16,056 mysql_action.py [line:55] : INFO ================ init finished! =================
+2018-09-15 22:24:16,257 mysql_action.py [line:18] : INFO ================ init data =================
+2018-09-15 22:24:16,258 mysql_action.py [line:19] : INFO connect db...
+2018-09-15 22:24:16,265 mysql_action.py [line:59] : INFO init data....
+2018-09-15 22:24:16,266 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:24:16,327 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:24:16,328 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:24:16,328 mysql_action.py [line:43] : INFO '1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/'
+2018-09-15 22:24:16,328 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/')
+2018-09-15 22:24:16,332 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:24:16,332 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-09-15 22:24:16,332 mysql_action.py [line:43] : INFO '2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/'
+2018-09-15 22:24:16,333 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/')
+2018-09-15 22:24:16,336 mysql_action.py [line:23] : INFO clear db...
+2018-09-15 22:24:16,358 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:24:16,358 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:24:16,359 mysql_action.py [line:43] : INFO '1','Developer'
+2018-09-15 22:24:16,359 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('1','Developer')
+2018-09-15 22:24:16,362 mysql_action.py [line:34] : INFO insert data....
+2018-09-15 22:24:16,362 mysql_action.py [line:42] : INFO id,name
+2018-09-15 22:24:16,363 mysql_action.py [line:43] : INFO '2','Tester'
+2018-09-15 22:24:16,363 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('2','Tester')
+2018-09-15 22:24:16,367 mysql_action.py [line:53] : INFO close db
+2018-09-15 22:24:16,368 mysql_action.py [line:55] : INFO ================ init finished! =================
+2018-09-15 22:24:16,369 run.py [line:37] : INFO ==========Start API Test===========
+2018-09-15 22:24:16,370 test_django_restful.py [line:69] : INFO test_001_get_group
+2018-09-15 22:24:16,619 test_django_restful.py [line:76] : INFO test_002_add_group
+2018-09-15 22:24:16,862 test_django_restful.py [line:84] : INFO test_003_update_group
+2018-09-15 22:24:17,077 test_django_restful.py [line:94] : INFO test_004_delete_group
+2018-09-15 22:24:17,278 test_django_restful.py [line:100] : INFO test_005_no_auth
+2018-09-15 22:24:17,298 test_django_restful.py [line:23] : INFO test_001_get_user
+2018-09-15 22:24:17,591 test_django_restful.py [line:32] : INFO test_002_add_user
+2018-09-15 22:24:17,872 test_django_restful.py [line:50] : INFO test_004_delete_user
+2018-09-15 22:24:18,084 test_django_restful.py [line:56] : INFO test_005_no_auth
+2018-09-15 22:24:18,095 test_django_restful.py [line:41] : INFO test__003_update_user
+2018-10-07 16:58:04,277 mysql_action.py [line:18] : INFO ================ init data =================
+2018-10-07 16:58:04,288 mysql_action.py [line:19] : INFO connect db...
+2018-10-07 16:58:04,297 mysql_action.py [line:59] : INFO init data....
+2018-10-07 16:58:04,298 mysql_action.py [line:23] : INFO clear db...
+2018-10-07 16:58:04,351 mysql_action.py [line:34] : INFO insert data....
+2018-10-07 16:58:04,351 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-10-07 16:58:04,352 mysql_action.py [line:43] : INFO '1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/'
+2018-10-07 16:58:04,352 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/')
+2018-10-07 16:58:04,355 mysql_action.py [line:34] : INFO insert data....
+2018-10-07 16:58:04,355 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-10-07 16:58:04,356 mysql_action.py [line:43] : INFO '2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/'
+2018-10-07 16:58:04,356 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/')
+2018-10-07 16:58:04,367 mysql_action.py [line:23] : INFO clear db...
+2018-10-07 16:58:04,405 mysql_action.py [line:34] : INFO insert data....
+2018-10-07 16:58:04,405 mysql_action.py [line:42] : INFO id,name
+2018-10-07 16:58:04,405 mysql_action.py [line:43] : INFO '1','Developer'
+2018-10-07 16:58:04,405 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('1','Developer')
+2018-10-07 16:58:04,409 mysql_action.py [line:34] : INFO insert data....
+2018-10-07 16:58:04,409 mysql_action.py [line:42] : INFO id,name
+2018-10-07 16:58:04,409 mysql_action.py [line:43] : INFO '2','Tester'
+2018-10-07 16:58:04,410 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('2','Tester')
+2018-10-07 16:58:04,413 mysql_action.py [line:53] : INFO close db
+2018-10-07 16:58:04,414 mysql_action.py [line:55] : INFO ================ init finished! =================
+2018-10-07 16:58:04,541 mysql_action.py [line:18] : INFO ================ init data =================
+2018-10-07 16:58:04,541 mysql_action.py [line:19] : INFO connect db...
+2018-10-07 16:58:04,546 mysql_action.py [line:59] : INFO init data....
+2018-10-07 16:58:04,547 mysql_action.py [line:23] : INFO clear db...
+2018-10-07 16:58:04,568 mysql_action.py [line:34] : INFO insert data....
+2018-10-07 16:58:04,569 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-10-07 16:58:04,569 mysql_action.py [line:43] : INFO '1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/'
+2018-10-07 16:58:04,569 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/')
+2018-10-07 16:58:04,572 mysql_action.py [line:34] : INFO insert data....
+2018-10-07 16:58:04,573 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-10-07 16:58:04,573 mysql_action.py [line:43] : INFO '2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/'
+2018-10-07 16:58:04,573 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/')
+2018-10-07 16:58:04,577 mysql_action.py [line:23] : INFO clear db...
+2018-10-07 16:58:04,598 mysql_action.py [line:34] : INFO insert data....
+2018-10-07 16:58:04,599 mysql_action.py [line:42] : INFO id,name
+2018-10-07 16:58:04,599 mysql_action.py [line:43] : INFO '1','Developer'
+2018-10-07 16:58:04,599 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('1','Developer')
+2018-10-07 16:58:04,612 mysql_action.py [line:34] : INFO insert data....
+2018-10-07 16:58:04,612 mysql_action.py [line:42] : INFO id,name
+2018-10-07 16:58:04,613 mysql_action.py [line:43] : INFO '2','Tester'
+2018-10-07 16:58:04,613 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('2','Tester')
+2018-10-07 16:58:04,616 mysql_action.py [line:53] : INFO close db
+2018-10-07 16:58:04,617 mysql_action.py [line:55] : INFO ================ init finished! =================
+2018-10-07 16:58:04,618 run.py [line:37] : INFO ==========Start API Test===========
+2018-10-07 16:58:04,618 test_django_restful.py [line:69] : INFO test_001_get_group
+2018-10-07 16:58:04,775 test_django_restful.py [line:76] : INFO test_002_add_group
+2018-10-07 16:58:04,920 test_django_restful.py [line:84] : INFO test_003_update_group
+2018-10-07 16:58:05,062 test_django_restful.py [line:94] : INFO test_004_delete_group
+2018-10-07 16:58:05,200 test_django_restful.py [line:100] : INFO test_005_no_auth
+2018-10-07 16:58:05,216 test_django_restful.py [line:23] : INFO test_001_get_user
+2018-10-07 16:58:05,406 test_django_restful.py [line:32] : INFO test_002_add_user
+2018-10-07 16:58:05,554 test_django_restful.py [line:50] : INFO test_004_delete_user
+2018-10-07 16:58:05,711 test_django_restful.py [line:56] : INFO test_005_no_auth
+2018-10-07 16:58:05,723 test_django_restful.py [line:41] : INFO test__003_update_user
+2018-10-07 17:00:30,871 mysql_action.py [line:18] : INFO ================ init data =================
+2018-10-07 17:00:30,871 mysql_action.py [line:19] : INFO connect db...
+2018-10-07 17:00:30,879 mysql_action.py [line:59] : INFO init data....
+2018-10-07 17:00:30,880 mysql_action.py [line:23] : INFO clear db...
+2018-10-07 17:00:30,922 mysql_action.py [line:34] : INFO insert data....
+2018-10-07 17:00:30,923 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-10-07 17:00:30,923 mysql_action.py [line:43] : INFO '1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/'
+2018-10-07 17:00:30,923 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com;','http://127.0.0.1:8000/groups/1/')
+2018-10-07 17:00:30,926 mysql_action.py [line:34] : INFO insert data....
+2018-10-07 17:00:30,927 mysql_action.py [line:42] : INFO id,username,email,groups
+2018-10-07 17:00:30,927 mysql_action.py [line:43] : INFO '2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/'
+2018-10-07 17:00:30,927 mysql_action.py [line:46] : INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com;','http://127.0.0.1:8000/groups/2/')
+2018-10-07 17:00:30,931 mysql_action.py [line:23] : INFO clear db...
+2018-10-07 17:00:30,954 mysql_action.py [line:34] : INFO insert data....
+2018-10-07 17:00:30,954 mysql_action.py [line:42] : INFO id,name
+2018-10-07 17:00:30,954 mysql_action.py [line:43] : INFO '1','Developer'
+2018-10-07 17:00:30,954 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('1','Developer')
+2018-10-07 17:00:30,958 mysql_action.py [line:34] : INFO insert data....
+2018-10-07 17:00:30,958 mysql_action.py [line:42] : INFO id,name
+2018-10-07 17:00:30,958 mysql_action.py [line:43] : INFO '2','Tester'
+2018-10-07 17:00:30,958 mysql_action.py [line:46] : INFO insert into api_group(id,name)values('2','Tester')
+2018-10-07 17:00:30,965 mysql_action.py [line:53] : INFO close db
+2018-10-07 17:00:30,965 mysql_action.py [line:55] : INFO ================ init finished! =================
+2018-10-07 17:00:30,966 run.py [line:37] : INFO ==========Start API Test===========
+2018-10-07 17:00:30,967 test_django_restful.py [line:69] : INFO test_001_get_group
+2018-10-07 17:00:31,130 test_django_restful.py [line:76] : INFO test_002_add_group
+2018-10-07 17:00:31,321 test_django_restful.py [line:84] : INFO test_003_update_group
+2018-10-07 17:00:31,548 test_django_restful.py [line:94] : INFO test_004_delete_group
+2018-10-07 17:00:31,782 test_django_restful.py [line:100] : INFO test_005_no_auth
+2018-10-07 17:00:31,797 test_django_restful.py [line:23] : INFO test_001_get_user
+2018-10-07 17:00:31,960 test_django_restful.py [line:32] : INFO test_002_add_user
+2018-10-07 17:00:32,140 test_django_restful.py [line:50] : INFO test_004_delete_user
+2018-10-07 17:00:32,381 test_django_restful.py [line:56] : INFO test_005_no_auth
+2018-10-07 17:00:32,397 test_django_restful.py [line:41] : INFO test__003_update_user
